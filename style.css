@@ -1,0 +1,171 @@
+/* ============================
+   PAGE
+============================ */
+
+body {
+
+  margin: 0;
+
+  padding: 40px;
+
+  background: #f2eee4;
+
+  font-family: Arial, sans-serif;
+
+  color: #171717;
+
+  text-align: center;
+
+}
+
+
+/* ============================
+   TITLE
+============================ */
+
+h1 {
+
+  letter-spacing: 4px;
+
+}
+
+
+#letter {
+
+  font-size: 80px;
+
+  margin: 20px;
+
+}
+
+
+/* ============================
+   TEXT INPUT
+============================ */
+
+textarea {
+
+  width: 400px;
+
+  max-width: 80%;
+
+  padding: 15px;
+
+  font-size: 20px;
+
+  font-family: Georgia, serif;
+
+  box-sizing: border-box;
+
+}
+
+
+/* ============================
+   BUTTON
+============================ */
+
+button {
+
+  padding: 12px 24px;
+
+  font-size: 16px;
+
+  cursor: pointer;
+
+}
+
+
+/* Make disabled button obvious */
+
+button:disabled {
+
+  opacity: 0.4;
+
+  cursor: not-allowed;
+
+}
+
+
+/* ============================
+   MESSAGE
+============================ */
+
+#message {
+
+  min-height: 25px;
+
+}
+
+
+/* ============================
+   TIMER
+============================ */
+
+#timer {
+
+  font-size: 24px;
+
+  font-weight: bold;
+
+}
+
+
+/* ============================
+   DRAGGABLE POETRY
+============================ */
+
+#poetryPiece {
+
+  display: none;
+
+  width: fit-content;
+
+  max-width: 80%;
+
+  margin: 25px auto;
+
+  padding: 15px;
+
+  background: #ffffff;
+
+  border: 2px dashed #171717;
+
+  font-family: Georgia, serif;
+
+  font-size: 24px;
+
+  cursor: grab;
+
+  user-select: none;
+
+  touch-action: none;
+
+}
+
+
+#poetryPiece:active {
+
+  cursor: grabbing;
+
+}
+
+
+/* ============================
+   CANVAS
+============================ */
+
+canvas {
+
+  display: block;
+
+  margin: 30px auto;
+
+  width: 90%;
+
+  max-width: 1000px;
+
+  background: #f7f3e9;
+
+  border: 2px solid #171717;
+
+}
